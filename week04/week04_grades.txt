@@ -1,0 +1,20 @@
+importing Jupyter notebook from week04_assignment.ipynb
+    Q#        Your Response       Correct Answer   Feedback Points
+  15.1                    D                    A  INCORRECT   0.00
+  15.2                    A                    A    CORRECT   0.33
+  15.3                    C                    C    CORRECT   0.33
+  16.1                    C                    C    CORRECT   0.33
+  16.2                    B                    B    CORRECT   0.33
+  16.3                    B                    B    CORRECT   0.33
+  17.1                    C                    B    CORRECT   0.33
+  17.2                    B                    D  INCORRECT   0.00
+  17.3                    B           ['C', 'D']    CORRECT   0.33
+  20.1 {'Boal': [{'First Name': []}], 'Duck': [{'First Name': []}], 'Westhus': [{'First Name': []}]} {'Boal': ['Paul', 'Ada', 'Teddy'], 'Duck': ['Donald', 'Daisy'], 'Westhus': ['Eric']}  INCORRECT   0.00
+  20.2 [['Boal', 'too short'], ['Boal', 'too long'], ['Jones', 'just right'], ['Ashbury', 'too short']] [['Boal', 'too short'], ['Boal', 'too long'], ['Jones', 'just right'], ['Ashbury', 'too short']]    CORRECT   2.50
+
+Scored 4.83 out of 8.0: 60.42%
+
+On this week's assignments, I gave full credit for any answers to 17.1 and 17.3 because of the confusion and my mistakes on those.
+
+You were getting close on 20.1, so I gave you an extra point there for a total of 5.8 out of 8.
+
