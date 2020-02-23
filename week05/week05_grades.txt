@@ -1,0 +1,27 @@
+importing Jupyter notebook from week05_assignment.ipynb
+1
+1
+0
+2
+None
+    Q#        Your Response       Correct Answer   Feedback Points
+  21.1                    A                    A    CORRECT   0.33
+  21.2                    A                    D  INCORRECT   0.00
+  21.3                    D                    B  INCORRECT   0.00
+  22.1                                         D    CORRECT   0.50
+  22.2                 True                 True    CORRECT   0.50
+  23.1                    C                    D  INCORRECT   0.00
+  23.2                    D                    D    CORRECT   0.50
+  24.1                    B                    C  INCORRECT   0.00
+  24.2                    A                    B  INCORRECT   0.00
+  25.1                 None                    1  INCORRECT   0.00
+                       None                    0  INCORRECT   0.00
+                       None                    2  INCORRECT   0.00
+  25.2                  2.0                    2    CORRECT   0.83
+                       None                 None    CORRECT   0.83
+                      200.0                  200    CORRECT   0.83
+
+Scored 4.33 out of 9.0: 48.15%
+
+I gave full credit for any answer on 22.1 because I had setup the solution cell wrong.
+
