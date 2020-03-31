@@ -1,0 +1,37 @@
+importing Jupyter notebook from week06_assignment.ipynb
+    Q#        Your Response       Correct Answer   Feedback Points
+  26.1                False                False    CORRECT   0.33
+  26.2                    A                    A    CORRECT   0.33
+  26.3                    A                    A    CORRECT   0.33
+  27.1                    D                    D    CORRECT   0.33
+  27.2           ['D', 'A'] ['A', 'B', 'C', 'D']  INCORRECT   0.00
+  27.3                    B                    B    CORRECT   0.33
+  28.1           ['A', 'C'] ['A', 'B', 'C', 'D']  INCORRECT   0.00
+  28.2                    B                    B    CORRECT   0.33
+  28.3                    B                    B    CORRECT   0.33
+  29.1                    A                    A    CORRECT   0.33
+  29.2                    D                    D    CORRECT   0.33
+  29.3                False                False    CORRECT   0.33
+  30.1                 None                    3  INCORRECT   0.00
+  30.2                 None [['Jason Argonaut', 'PENICILLIN G', 'Hives'], ['Jason Argonaut', 'SHELLFISH-DERIVED PRODUCTS', 'Itching'], ['Jason Argonaut', 'STRAWBERRY', 'Anaphylaxis']]  INCORRECT   0.00
+  30.3                 None          Anaphylaxis  INCORRECT   0.00
+
+Scored 3.33 out of 9.0: 37.04%
+
+It looks like you struggled quite a bit with looping over individual components inside the JSON data structure.  When you're working on those, I recommend breaking it down into smaller pieces and write some separate code outside of the function to test what you're doing and examine the data content.
+
+    obj = json.load(open('allergies.json'))
+    patient = obj.get('entry')[0].get('resource').get('patient')
+
+    print(dumps(patient, indent=4)
+    print(type(patient))
+
+And look at the output of that.
+
+The second thing to remember is that you can always loop over a list using for.
+
+  for patient in patients:
+    ...
+
+You had some good thoughts going there.  I'm going to give you 2/5 for module 30.
+
