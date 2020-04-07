@@ -1,0 +1,11 @@
+Week 11 Feedback
+
+1.1: 1/1
+1.2: 1/1
+1.3: 0.5/1 - You've got something going on here that's preventing your code from running.  Something about how you're combining series.  I think the key for you is to do .reset_index() after the group by and aggregate.
+1.4: 0.5/1
+1.5: 0.5/1
+
+Overall: 3.5/5
+
+Comments: If there was an error in how you submitted your code, let me know.  I can regrade.
