@@ -1,0 +1,3 @@
+To get the last part working, after the group by, you need to do some aggregation, like sum().
+
+

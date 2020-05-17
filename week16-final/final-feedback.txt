@@ -1,0 +1,17 @@
+PART 1:
+You've hardcoded the number of values that should be found.  Ideally, you should be processing whatever you find there.  -1
+
+PART 2:
+Good
+
+PART 3:
+Great
+
+PART 4:
+In the assert statements, I gave you some suggested column names, but you chose your own.  That made verifying your code difficult.  The results look correct, though.
+
+PART 5:
+I couldn't get your code to run exactly as you had it.  I think that along the way, you made the mistake of joining on the FIPS code rather than on the location.  That would have produced a lot of NaN. -1
+
+PART 6:
+Good thoughts.  Thanks!
